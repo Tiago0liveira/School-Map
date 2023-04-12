@@ -1,0 +1,249 @@
+#Visualizar {
+  position: relative;
+
+
+}
+
+/*Define a largura e a altura*/
+.map-container {
+  width: 100%;
+  height: 700px;
+
+}
+
+/*Define largura e altura para tela menores*/
+@media screen and (max-width: 768px) {
+  .map-container {
+    width: 100%;
+    height: 450px;
+
+  }
+
+  #sobre {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 250px;
+  }
+
+  #topo {
+    height: 88vh;
+    justify-content: center;
+    align-items: center;
+    min-width: 250px;
+  }
+
+  #Contato {
+    width: 50%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+
+  }
+}
+
+
+/* define os padrões  para o corpo do texto */
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #1c1c1c;
+  width: 100%;
+  height: 100%;
+}
+
+/* define a fonte  para h1, h2 e h3 */
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+  text-align: center;
+
+}
+
+.botao {
+  color: #ffffff;
+  /* define a cor do texto do botão */
+  text-decoration: none;
+  /* remove a decoração de sublinhado do link */
+  padding: 10px 30px;
+  /* define o espaçamento interno do botão */
+  background-color: #191970;
+  /* define a cor de fundo do botão */
+  font-size: 0.9em;
+  /* define o tamanho da fonte do botão */
+  border-radius: 30px;
+  /* define o raio das bordas do botão para criar um efeito de botão arredondado */
+  transition: all 0.2s ease-in-out;
+  /* adiciona uma transição suave ao botão quando houver mudança de estado */
+}
+
+.botao:hover {
+  background-color: #00008b;
+  /* define a cor de fundo do botão quando o mouse estiver sobre ele */
+  cursor: pointer;
+  /* adiciona um cursor de mão quando o mouse estiver sobre o botão para indicar que é clicável */
+}
+
+
+/* Define as propriedades do cabeçalho */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #FFFFFF;
+  text-align: center;
+  background-image: url(img/map.webp);
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+
+/* Define as propriedades do título do cabeçalho */
+header h1 {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+/* Define as propriedades do parágrafo do cabeçalho */
+header p {
+  margin-bottom: 2em;
+  font-weight: bold;
+
+}
+
+#sobre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px 20px;
+  background-image: linear-gradient(to bottom, #191970, #a4a9b5);
+  color: #FFFFFF;
+}
+
+#sobre h2 {
+  font-size: 2em;
+  margin-bottom: 1.5em;
+}
+
+#sobre p {
+  font-size: 1.1em;
+  line-height: 1.5;
+  max-width: 800px;
+  margin-bottom: 2.5em;
+}
+
+#sobre .botao {
+  display: inline-block;
+  margin-bottom: 2em;
+  padding: 10px 30px;
+  background-color: #FFFFFF;
+  color: #191970;
+  font-size: 1.1em;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 2px solid #FFFFFF;
+  border-radius: 30px;
+  transition: all 0.2s ease-in-out;
+  background-image: url('icone.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#sobre .botao:hover {
+  background-color: #FFFFFF;
+  color: #191970;
+  cursor: pointer;
+  border: 2px solid #191970;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  /*cabeçalho*/
+  header {
+    height: 88vh;
+    justify-content: center;
+    color: #f5f5f5;
+  }
+
+  /*sobre*/
+  #sobre {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 250px;
+  }
+
+  /*contato*/
+  #Contato {
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+
+  }
+
+  #Contato h2,
+  #Contato p {
+    margin-top: 20px;
+    width: 100%;
+    text-decoration: none;
+  }
+}
+
+#Contato a {
+  color: #000;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+}
+
+#Contato a:hover {
+  color: #fff;
+  background-color: #bac5eb;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-image: linear-gradient(to bottom, #c4c4cd, #0f1f44);
+  color: #fafafa;
+}
+
+.btn-voltar {
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  width: 65px;
+  height: 100px;
+  background-image: url('./img/seta.png');
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  background-size: 60px 60px;
+  opacity: 0.07;
+}
