@@ -418,7 +418,7 @@ var myGeoJsonData = {
                }
           },
 
-          /// inserir rua apartir daqui 
+
           {
                "type": "Feature",
                "geometry": {
@@ -427,6 +427,7 @@ var myGeoJsonData = {
                },
                "properties": {
                     "name": "EMEB Mutirão",
+                    "rua": "Avenida dos Pessegueiros, SN Bairro: Habitação",
                     "styleUrl": "#icon-1899-A52714-labelson-nodesc",
                     "styleHash": "71208e33",
                     "marker-color": "#e61414",
@@ -449,6 +450,7 @@ var myGeoJsonData = {
                },
                "properties": {
                     "name": "EMEB Nossa Senhora da Penha",
+                    "rua": "Rua: Artur Ramos, 241	 Bairro: São Miguel",
                     "styleUrl": "#icon-1899-A52714-labelson-nodesc",
                     "styleHash": "71208e33",
                     "marker-color": "#e61414",
@@ -473,6 +475,7 @@ var myGeoJsonData = {
                },
                "properties": {
                     "name": "EMEB Professor Eduardo Pedro Amaral",
+                    "rua": "Heitor Villa Lobos, SN Bairro: São Francisco",
                     "styleUrl": "#icon-1899-A52714-labelson-nodesc",
                     "styleHash": "71208e33",
                     "marker-color": "#e61414",
@@ -497,6 +500,7 @@ var myGeoJsonData = {
                },
                "properties": {
                     "name": "EMEF Professora Eni Rosa Dos Santos (Cajurú)",
+                    "rua":"Rua: Estrada Geral SN, Bairro: Localidade Cajuru ",
                     "marker-color": "#449a2d",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7661",
@@ -518,6 +522,7 @@ var myGeoJsonData = {
                },
                "properties": {
                     "name": "EMEF Macacos",
+                    "rua": "Rua: Estrada Geral SN, Bairro: Localidade Macacos",
                     "marker-color": "#449a2d",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7661",
@@ -539,6 +544,7 @@ var myGeoJsonData = {
                },
                "properties": {
                     "name": "EMEF Salto do Caveiras",
+                    "rua": "Rua: Estrada Geral SN, Bairro: Localidade Salto Caveiras ",
                     "telephone": "(49) 3019-7661",
                     "marker-size": "medium",
                     "marker-color": "#449a2d",
@@ -560,6 +566,7 @@ var myGeoJsonData = {
                },
                "properties": {
                     "name": "EMEF Serraria Segredo(Pedras Brancas)",
+                    "rua": "Estrada Geral SN, Bairro: Localidade Santa Catarina (Pedras Brancas)",
                     "telephone": "(49) 3019-7661",
                     "marker-size": "medium",
                     "marker-color": "#449a2d",
@@ -581,6 +588,7 @@ var myGeoJsonData = {
                },
                "properties": {
                     "name": "EMEF Cândido Batista Dias (Rancho de Tabuas)",
+                    "rua": "Rua: Estrada Geral SN, Bairro: Localidade Rancho de Tábuas",
                     "telephone": "(49) 3019-7661",
                     "marker-size": "medium",
                     "marker-color": "#449a2d",
@@ -602,6 +610,7 @@ var myGeoJsonData = {
                },
                "properties": {
                     "name": "EMEF Dom Honorato Piazzera(São Sebastião)",
+                    "rua": "Rua: Estrada Geral SN, Bairro: Localidade São Sebastião",
                     "telephone": "(49) 3019-7661",
                     "marker-size": "medium",
                     "marker-color": "#449a2d",
@@ -623,6 +632,7 @@ var myGeoJsonData = {
                },
                "properties": {
                     "name": "EMEF Irene Rafaeli de Andrade(Cadeado)",
+                    "rua":"Rua: Estrada Geral SN, Bairro: Localidade Cadeado",
                     "telephone": "(49) 3019-7661",
                     "marker-size": "medium",
                     "marker-color": "#449a2d",
@@ -644,6 +654,7 @@ var myGeoJsonData = {
                },
                "properties": {
                     "name": "EMEF Vergílio Godinho (Lambedor)",
+                    "rua": "Rua: Estrada Geral SN, Bairro: Localidade Lambedor",
                     "telephone": "(49) 3019-7661",
                     "marker-size": "medium",
                     "marker-color": "#449a2d",
@@ -652,9 +663,9 @@ var myGeoJsonData = {
                     "students": "5",
                     "capacity": "2"
                }
-          }, //////comecando daqui a alterar
-
-
+          }, 
+          
+          //////comecando daqui a alterar
 
           {
                "type": "Feature",
@@ -668,6 +679,7 @@ var myGeoJsonData = {
                },
                "properties": {
                     "name": "EMEB Professor Osni Medeiros Régis",
+                   "rua": "Rua Irmão Joaquim, SN	 Bairro: Tributo",
                     "styleUrl": "#icon-1899-A52714-labelson-nodesc",
                     "styleHash": "71208e33",
                     "marker-color": "#e61414",
@@ -691,6 +703,7 @@ var myGeoJsonData = {
                },
                "properties": {
                     "name": "EMEB Professor Pedro Cândido",
+                    "rua": "Rua Barcelona, 49 Bairro: Boqueirão",
                     "styleUrl": "#icon-1899-A52714-labelson-nodesc",
                     "styleHash": "71208e33",
                     "marker-color": "#e61414",
@@ -714,6 +727,7 @@ var myGeoJsonData = {
                },
                "properties": {
                     "name": "EMEB Professor Trajano",
+                    "rua": "Avenida Luís de Camões, 1949 Bairro: Conta Dinheiro",
                     "styleUrl": "#icon-1899-A52714-labelson-nodesc",
                     "styleHash": "71208e33",
                     "marker-color": "#e61414",
@@ -737,6 +751,7 @@ var myGeoJsonData = {
                },
                "properties": {
                     "name": "EMEB Professora Belizária Rodrigues",
+                    "rua": "Rua Lauro Luís da Silva, 35 Bairro: Maria Luiza",
                     "telephone": "(49) 3019-7214",
                     "marker-symbol": "school",
                     "marker-color": "#e61414",
@@ -760,6 +775,7 @@ var myGeoJsonData = {
                },
                "properties": {
                     "name": "EMEB Professor Fausta Rath",
+                    "rua": "Rua Lauro Luís da Silva, 35 Bairro: Maria Luiza",
                     "telephone": "(49) 3019-7157",
                     "marker-symbol": "school",
                     "marker-color": "#e61414",
@@ -783,6 +799,7 @@ var myGeoJsonData = {
                },
                "properties": {
                     "name": "EMEB Professora Madalena Miranda Largura",
+                    "rua": "Rua Elizonete Ribeiro Damacena, SN Bairro: Vista Alegre",
                     "telephone": "(49) 3019-7215",
                     "marker-symbol": "school",
                     "marker-color": "#e61414",
@@ -806,6 +823,7 @@ var myGeoJsonData = {
                },
                "properties": {
                     "name": "EMEB Saul de Athayde",
+                    "rua": "Rua Avenida Marechal Castelo Branco, 1840	 Bairro: Ferrovia ",
                     "telephone": "(49) 3019-7181",
                     "marker-symbol": "school",
                     "marker-color": "#e61414",
@@ -829,6 +847,7 @@ var myGeoJsonData = {
                },
                "properties": {
                     "name": "EMEB Oscar Schweitzer",
+                    "rua": "Rua Inocêncio Alves de Brito,151  Bairro: Guadalajara",
                     "telephone": "(49) 3019-7178",
                     "marker-symbol": "school",
                     "marker-color": "#e61414",
@@ -852,7 +871,8 @@ var myGeoJsonData = {
                     ]
                },
                "properties": {
-                    "name": "EMEB - Aline Giovana Schmitt",
+                    "name": "EMEB  Aline Giovana Schmitt",
+                    "rua": "Rua: Joaquim Vitorino Lopes, S/N	Bairro: Guarujá",
                     "telephone": "(49) 3019-7172",
                     "marker-size": "medium",
                     "marker-symbol": "school",
@@ -876,6 +896,7 @@ var myGeoJsonData = {
                },
                "properties": {
                     "name": "EMEB São Vicente",
+                    "rua": "Rua Vendolino Wiggers, 324	São Sebastião",
                     "telephone": "(49) 3019-7190",
                     "marker-size": "medium",
                     "marker-symbol": "school",
@@ -899,6 +920,7 @@ var myGeoJsonData = {
                },
                "properties": {
                     "name": "EMEB Suzana Albino França",
+                    "rua": "Rua Avenida Edézio Neri Caon, SN Bairro: Jardim Panorâmico",
                     "telephone": "(49) 3019-7176",
                     "marker-size": "medium",
                     "marker-symbol": "school",
@@ -922,6 +944,7 @@ var myGeoJsonData = {
                },
                "properties": {
                     "name": "EMEF Antonieta de Barros",
+                    "rua": "Rua Estrada Geral SN, Bairro: Localidade Morrinhos",
                     "telephone": "(49) 3019-7661",
                     "marker-size": "medium",
                     "marker-symbol": "school",
@@ -943,6 +966,7 @@ var myGeoJsonData = {
                },
                "properties": {
                     "name": "EMEF Barreiros",
+                    "rua": "Rua Estrada Geral SN, Bairro: Localidade Morrinhos",
                     "telephone": "(49) 3019-7661",
                     "marker-size": "medium",
                     "marker-symbol": "school",
@@ -964,6 +988,7 @@ var myGeoJsonData = {
                },
                "properties": {
                     "name": "EMEF Rio Câdeado",
+                    "rua": "Rua Estrada Geral SN, Bairro: Localidade Rancho de Tábuas",
                     "marker-color": "#449a2d",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7661",
@@ -985,6 +1010,7 @@ var myGeoJsonData = {
                },
                "properties": {
                     "name": "EMEF Gramados",
+                    "rua":"Rua Estrada Geral SN, Bairro: Localidade Gramados",
                     "marker-color": "#449a2d",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7661",
@@ -1006,7 +1032,8 @@ var myGeoJsonData = {
                },
                "properties": {
                     "name": "EMEF Professor Edson Pereira (Potreiros)",
-                    "marker-color": "#449a2d",
+                   "rua":"Rua Estrada Geral SN, Bairro: Localidade Potreiros",
+                     "marker-color": "#449a2d",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7661",
                     "marker-size": "medium",
@@ -1027,6 +1054,7 @@ var myGeoJsonData = {
                },
                "properties": {
                     "name": "EMEF Pedras Brancas (Mirantes)",
+                    "rua": "Rua Estrada Geral SN, Bairro Localidade Mirante ",
                     "marker-size": "medium",
                     "marker-symbol": "school",
                     "marker-color": "#449a2d",
@@ -1035,7 +1063,9 @@ var myGeoJsonData = {
                     "students": "0",
                     "capacity": "4"
                }
-          }, ////inserir rua e turmas/studentes capacidade
+          }, 
+          
+          ////inserir rua e turmas/studentes capacidade apartir daqui
 
 
           {
