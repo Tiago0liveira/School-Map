@@ -1089,7 +1089,7 @@ var myGeoJsonData = {
 
 
            ////inserir rua e turmas/studentes capacidade apartir daqui
-           
+
           {
                "type": "Feature",
                "geometry": {
@@ -2294,12 +2294,3 @@ var myGeoJsonData = {
           },
      ]
 }
-
-
-
-
-
-
-
-
-
