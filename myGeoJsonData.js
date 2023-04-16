@@ -1065,9 +1065,6 @@ var myGeoJsonData = {
                }
           }, 
 
-          
-          ////inserir rua e turmas/studentes capacidade apartir daqui
-
 
           {
                "type": "Feature",
@@ -1078,13 +1075,21 @@ var myGeoJsonData = {
 
                "properties": {
                     "name": "EMEF Visconde de Araguaia (Coxilha Rica)",
+                    "rua": "Rua Estrada Geral SN, Bairro: Baú-Coxilha Rica",
                     "marker-color": "#449a2d",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7661",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "turmas":"Pré-Esc. I / 5º Ano",
+                    "students": "23",
+                    "capacity": "7"
+                    
                }
           },
 
+
+           ////inserir rua e turmas/studentes capacidade apartir daqui
+           
           {
                "type": "Feature",
                "geometry": {
@@ -1177,7 +1182,7 @@ var myGeoJsonData = {
                     "type": "Point",
                     "coordinates": [-50.2861327, -27.7826845, 0]
                },
-               
+
                "properties": {
                     "name": "CEIM Professora Valéria Guimarães Goss",
                     "marker-color": "#191fc2",
