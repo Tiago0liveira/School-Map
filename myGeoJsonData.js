@@ -665,7 +665,7 @@ var myGeoJsonData = {
                }
           }, 
           
-          //////comecando daqui a alterar
+        
 
           {
                "type": "Feature",
@@ -1064,7 +1064,7 @@ var myGeoJsonData = {
                     "capacity": "4"
                }
           }, 
-          
+
           
           ////inserir rua e turmas/studentes capacidade apartir daqui
 
@@ -1090,7 +1090,10 @@ var myGeoJsonData = {
                "geometry": {
                     "type": "Point",
                     "coordinates": [-50.3072897, -27.7928208, 0]
-               }, "properties": {
+
+               }, 
+
+               "properties": {
                     "name": "CEIM Professor Trajano",
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
@@ -1104,7 +1107,10 @@ var myGeoJsonData = {
                "geometry": {
                     "type": "Point",
                     "coordinates": [-50.3171852, -27.7987791, 0]
-               }, "properties": {
+
+               }, 
+               
+               "properties": {
                     "name": "CEIM Maura do Pilar",
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
@@ -1118,7 +1124,10 @@ var myGeoJsonData = {
                "geometry": {
                     "type": "Point",
                     "coordinates": [-50.3370433, -27.835078, 0]
-               }, "properties": {
+
+               }, 
+               
+               "properties": {
                     "name": "CEIM Moranguinho",
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
@@ -1133,7 +1142,10 @@ var myGeoJsonData = {
                "geometry": {
                     "type": "Point",
                     "coordinates": [-50.3170208, -27.8355024, 0]
-               }, "properties": {
+
+               },
+               
+               "properties": {
                     "name": "CEIM Mutirão",
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
@@ -1147,7 +1159,10 @@ var myGeoJsonData = {
                "geometry": {
                     "type": "Point",
                     "coordinates": [-50.3453035, -27.8442343, 0]
-               }, "properties": {
+
+               }, 
+               
+               "properties": {
                     "name": "CEIM Nossa Senhora dos Prazeres",
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
@@ -1162,6 +1177,7 @@ var myGeoJsonData = {
                     "type": "Point",
                     "coordinates": [-50.2861327, -27.7826845, 0]
                },
+               
                "properties": {
                     "name": "CEIM Professora Valéria Guimarães Goss",
                     "marker-color": "#191fc2",
