@@ -1486,8 +1486,6 @@ var myGeoJsonData = {
                }
           },
 
-          //Continuar a inserir turmas/ students/rua/capacity
-          
           {
                "type": "Feature",
                "geometry": {
@@ -1499,9 +1497,14 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7180",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Sergipe, 73	Bairro São Cristovão",
+                    "turmas": "Berçario II / Pré- Esc. II ",
+                    "students": "153",
+                    "capacity": "168"
                }
           },
+          //Continuar a inserir turmas/ students/rua/capacity
 
           {
                "type": "Feature",
