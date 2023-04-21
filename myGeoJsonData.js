@@ -1504,6 +1504,7 @@ var myGeoJsonData = {
                     "capacity": "168"
                }
           },
+          
           //Continuar a inserir turmas/ students/rua/capacity
 
           {
