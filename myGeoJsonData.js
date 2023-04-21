@@ -1087,9 +1087,6 @@ var myGeoJsonData = {
                }
           },
 
-
-           ////inserir rua e turmas/studentes capacidade apartir daqui
-
           {
                "type": "Feature",
                "geometry": {
@@ -1100,10 +1097,14 @@ var myGeoJsonData = {
 
                "properties": {
                     "name": "CEIM Professor Trajano",
+                    "rua": "Rua Av. Luiz de Camões, 1949 Bairro: Conta Dinheiro",
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7160",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "turmas":"Berçario II / Pré-Esc. II",
+                    "students": "109",
+                    "capacity": "104"
                }
           },
 
@@ -1117,10 +1118,14 @@ var myGeoJsonData = {
                
                "properties": {
                     "name": "CEIM Maura do Pilar",
+                    "rua": "Rua João José Godinho, 1716 Bairro: Frei Rogério",
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3224-3193/(49) 3019-7192",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "turmas":"Berc. Misto / Pré-Esc. II",
+                    "students": "83",
+                    "capacity":"85"
                }
           },
 
@@ -1134,11 +1139,15 @@ var myGeoJsonData = {
                
                "properties": {
                     "name": "CEIM Moranguinho",
+                    "rua": "Rua Eleotério da Silva Furtado, 738	Bairro: Centenário",
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "styleUrl": "",
                     "telephone": "(49) 3019-7237",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "turmas": "Berçário I / Mat. II",
+                    "students": "59",
+                    "capacity": "57",
                }
           },
 
@@ -1152,10 +1161,15 @@ var myGeoJsonData = {
                
                "properties": {
                     "name": "CEIM Mutirão",
+                    "rua": "Rua Av. dos Pessegueiros, SN	Bairro: Habitação",
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7208",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "turmas": "Berçário I / Pré-Esc. II",
+                    "students":"163",
+                    "capacity": "162",
+
                }
           },
 
@@ -1169,10 +1183,14 @@ var myGeoJsonData = {
                
                "properties": {
                     "name": "CEIM Nossa Senhora dos Prazeres",
+                    "rua":"Rua Aujor Luz, SN	Bairro:  Santa Catarina",
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7193",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "turmas": "Berçário I / Pré-Esc. II",
+                    "students": "290",
+                    "capacity":"325",
                }
           },
 
@@ -1185,10 +1203,14 @@ var myGeoJsonData = {
 
                "properties": {
                     "name": "CEIM Professora Valéria Guimarães Goss",
+                    "rua": "Rua Av. Maria de Souza, SN	Bairro: Guarujá",
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7155",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "turmas": "Berçário I / Pré-Esc. II",
+                    "students": "170",
+                    "capacity":"154",
                }
           },
           {
@@ -1199,10 +1221,14 @@ var myGeoJsonData = {
                },
                "properties": {
                     "name": "CEIM Primeiros Passos",
+                    "rua":"Rua Leopoldo Stefen, 174 Bairro: Coral",
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7175",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "turmas": "Berçário I / Pré-Esc. I",
+                    "students": "73",
+                    "capacity":"75",
                }
           },
 
@@ -1214,10 +1240,14 @@ var myGeoJsonData = {
                },
                "properties": {
                     "name": "CEIM Prof. Rosvita Lima Borges",
+                    "rua":"Rua Lauro Luiz da Silva, SN	Maria Luiza",
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7214",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "turmas": "Berçário Misto / Pré Misto",
+                    "students": "53",
+                    "capacity":"53",
                }
           },
 
@@ -1229,10 +1259,17 @@ var myGeoJsonData = {
                },
                "properties": {
                     "name": "CEIM Professora Maria Sônia De Quevedo",
+                    "rua": "Rua Av. Primeiro de Maio, 1003	Bairro: São Cristovão",
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7170",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "turmas": "Berçário Misto / Pré Esc. II",
+                    "students": "164",
+                    "capacity":"164",
+               
+
+                    
                }
           },
 
@@ -1244,10 +1281,15 @@ var myGeoJsonData = {
                },
                "properties": {
                     "name": "CEIM Pequeno Príncipe",
+                    "rua": "Rua Salvador Pucci Sobrinho, 289 Bairro: Várzea",
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7164",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "turmas": "Berçário II / Pré Esc. II",
+                    "students": "107",
+                    "capacity":"105",
+
                }
           },
 
@@ -1262,7 +1304,11 @@ var myGeoJsonData = {
                     "marker-size": "medium",
                     "marker-symbol": "school",
                     "name": "CEIM Salto do Caveiras",
-                    "telephone": "(49) 3019-7239"
+                    "telephone": "(49) 3019-7239",
+                    "rua":"Rua Av Paulo Andrade de Souza, 1900 Bairro: Santa Terezinha do Salto",
+                    "turmas": "Berçário I / Pré-Esc. II ",
+                    "students": "20",
+                    "capacity": "10"
                }
           },
 
@@ -1277,7 +1323,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7182",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Frei Silva Neiva, SN Bairro: Morro Grande	",
+                    "turmas": "Berçário Misto / Mat. Mist ",
+                    "students": "26",
+                    "capacity": "25"
                }
           },
 
@@ -1292,7 +1342,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7174",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Padre Adriano, SN	Bairro Dom Daniel ",
+                    "turmas": "Berçário II / Pré-Esc. II  ",
+                    "students": "100",
+                    "capacity": "110"
                }
           },
 
@@ -1307,7 +1361,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7225",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua João Faustino dos Santos, SN	Bairro: São Pedro ",
+                    "turmas": "Berçário Misto / Pré-Esc. II  ",
+                    "students": "75",
+                    "capacity": "76"
                }
           },
 
@@ -1322,7 +1380,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7212",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Alberto Nepomuceno, SN	Bairro: São Paulo ",
+                    "turmas": "Berçario Misto / Pré-Esc. II  ",
+                    "students": "101",
+                    "capacity": "97"
                }
           },
 
@@ -1336,9 +1398,12 @@ var myGeoJsonData = {
                     "name": "CEIM Marco Floriani Bordin",
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
-
                     "telephone": "(49) 3019-7236",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Presidente Kennedy, 669	Bairro: Copacabana ",
+                    "turmas": "Berçario I / Pré-Esc. II  ",
+                    "students": "158",
+                    "capacity": "156"
                }
           },
 
@@ -1353,7 +1418,12 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7183/(49) 3019-7182",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua João Lemos Machado, SN	Bairro: Morro Grande ",
+                    "turmas": "Berçario Misto / Mat. Misto  ",
+                    "students": "25",
+                    "capacity": "25"
+                    
                }
           },
 
@@ -1368,7 +1438,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7201",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Celio Batista de Castro, SN	Bairro: Santa Helena ",
+                    "turmas": "Berçario I / Pré-Esc. II ",
+                    "students": "114",
+                    "capacity": "112"
                }
           },
 
@@ -1385,7 +1459,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7168",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Vergilio Godinho, SN	Bairro: Brusque ",
+                    "turmas": "Berçario II / Pré Misto ",
+                    "students": "160",
+                    "capacity": "160"
                }
           },
 
@@ -1400,10 +1478,16 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7206",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Joaquim Nabuco, SN	Bairro: Caravágio",
+                    "turmas": "Berçario I / Pré- Esc. II ",
+                    "students": "107",
+                    "capacity": "108"
                }
           },
 
+          //Continuar a inserir turmas/ students/rua/capacity
+          
           {
                "type": "Feature",
                "geometry": {
