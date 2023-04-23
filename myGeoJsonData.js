@@ -1675,7 +1675,7 @@ var myGeoJsonData = {
                     "telephone": "(49) 3019-7189",
                     "marker-size": "medium",
                     "rua":"Rua Frontino Arruda, SN Bairro: Bela Vista",
-                    "turmas": "Berçario II / Pé-Esc. II",
+                    "turmas": "Berçario II / Pré-Esc. II",
                     "students": "183",
                     "capacity": "175"
                }
@@ -1694,7 +1694,7 @@ var myGeoJsonData = {
                     "telephone": "(49) 3019-7152",
                     "marker-size": "medium",
                     "rua":"Rua Mário Augusto de Souza, 54 Bairro: Centro",
-                    "turmas": "Berçario I / Pé-Esc. II",
+                    "turmas": "Berçario I / Pré-Esc. II",
                     "students": "217",
                     "capacity": "211"
 
@@ -1714,7 +1714,7 @@ var myGeoJsonData = {
                     "telephone": "(49) 3019-7195",
                     "marker-size": "medium",
                     "rua":"Rua Joinville, SN Bairro: Petrópolis",
-                    "turmas": "Berçario I / Pé-Esc. II",
+                    "turmas": "Berçario I / Pré-Esc. II",
                     "students": "151",
                     "capacity": "165"
                }
@@ -1733,7 +1733,7 @@ var myGeoJsonData = {
                     "telephone": "(49) 3019-7199",
                     "marker-size": "medium",
                     "rua":"Rua Esporte Clube Corinthias, 850 Bairro: Santa Mônica",
-                    "turmas": "Berçario I / Pé-Esc. II",
+                    "turmas": "Berçario I / Pré-Esc. II",
                     "students": "200",
                     "capacity": "224"
                }
@@ -1752,7 +1752,7 @@ var myGeoJsonData = {
                     "telephone": "(49) 3019-7165",
                     "marker-size": "medium",
                     "rua":"Rua Nossa Senhora da Saúde, SN Bairro: Guarujá",
-                    "turmas": "Maternal Misto / Pé-Esc. II",
+                    "turmas": "Maternal Misto / Pré-Esc. II",
                     "students": "91",
                     "capacity": "90"
                }
@@ -1771,13 +1771,12 @@ var myGeoJsonData = {
                     "telephone": "(49) 3019-7551",
                     "marker-size": "medium",
                     "rua":"Rua José Maria Ribas Pinto, SN Bairro: Promorar",
-                    "turmas": "Berçario I / Pé-Esc. II",
+                    "turmas": "Berçario I / Pré-Esc. II",
                     "students": "160",
                     "capacity": "156"
                }
           },
           
-          //Continuar a inserir turmas/ students/rua/capacity
           {
                "type": "Feature",
                "geometry": {
@@ -1789,7 +1788,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7163",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Mal. Artur da Costa e Silva, SN Bairro: Popular",
+                    "turmas": "Berçario I / Pré-Esc. I",
+                    "students": "84",
+                    "capacity": "88"
                }
           },
 
@@ -1804,7 +1807,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7177",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Hernesto Ranzolin, 100 Bairro: Tributo",
+                    "turmas": "Berçario I / Pré-Esc. II",
+                    "students": "199",
+                    "capacity": "192"
                }
           },
 
@@ -1819,7 +1826,12 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7556",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Av. Edézio Neri Caon, SN Bairro: Jardim Panorâmico",
+                    "turmas": "Berçario I / Pré-Esc. II",
+                    "students": "68",
+                    "capacity": "64"
+               
                }
           },
 
@@ -1834,7 +1846,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7550",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Itapuã, SN Bairro: São Miguel",
+                    "turmas": "Berçario I / Pré-Esc. II",
+                    "students": "112",
+                    "capacity": "109"
                }
           },
 
@@ -1849,7 +1865,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7221",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Salustiano Neto, SN Bairro: São Luíz",
+                    "turmas": "Pré-Esc. I / Pré-Esc. II",
+                    "students": "48",
+                    "capacity": "48"
                }
           },
 
@@ -1864,9 +1884,15 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7151",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Blumenau, SN Bairro: Petrópolis",
+                    "turmas": "Berçario I / Pré-Esc. II",
+                    "students": "100",
+                    "capacity": "105"
                }
           },
+
+                    //Continuar a inserir turmas/ students/rua/capacity
 
           {
                "type": "Feature",
