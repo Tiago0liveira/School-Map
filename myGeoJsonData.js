@@ -1505,7 +1505,7 @@ var myGeoJsonData = {
                }
           },
           
-          //Continuar a inserir turmas/ students/rua/capacity
+
 
           {
                "type": "Feature",
@@ -1518,7 +1518,12 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7205",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Jose Maria Freitas, 611	Bairro: Novo Milênio",
+                    "turmas": "Berçario II / Pré- Esc. II ",
+                    "students": "107",
+                    "capacity": "96"
+                    
                }
           },
 
@@ -1533,7 +1538,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7213",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Leontina Ribeiro, 144	Bairro: Cohab III",
+                    "turmas": "Berçario Misto / Maternal Misto",
+                    "students": "25",
+                    "capacity": "25"
                }
           },
 
@@ -1548,7 +1557,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7642",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua João Francisco Wolff, 99 Bairro: Vila Nova",
+                    "turmas": "Berçario II / Pré-Esc II",
+                    "students": "151",
+                    "capacity": "161"
                }
           },
 
@@ -1564,7 +1577,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7218",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Bruno Luersen, SN	Bairro: Localidade Chapada",
+                    "turmas": "Maternal Misto",
+                    "students": "17",
+                    "capacity": "17"
                }
           },
 
@@ -1579,7 +1596,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7153",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Baependi, 300	Bairro: Centro",
+                    "turmas": "Berçario I / Pré-Esc II",
+                    "students": "93",
+                    "capacity": "93"
                }
           },
 
@@ -1594,7 +1615,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7166",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Humberto de Campos, 72	Bairro: Sagrado C. Jesus",
+                    "turmas": "Pré-Esc I / Pré-Esc II",
+                    "students": "52",
+                    "capacity": "52"
                }
           },
 
@@ -1609,7 +1634,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7557",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua João Maria de Souza Bairro: Penha",
+                    "turmas": "Berçario II / Pré-Esc II",
+                    "students": "248",
+                    "capacity": "287"
                }
           },
 
@@ -1624,7 +1653,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7228",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Pedro Gaspar Fernandes, 146 Bairro: Gethal",
+                    "turmas": "Maternal II",
+                    "students": "15",
+                    "capacity": "16"
                }
           },
 
@@ -1640,7 +1673,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7189",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Frontino Arruda, SN Bairro: Bela Vista",
+                    "turmas": "Berçario II / Pé-Esc. II",
+                    "students": "183",
+                    "capacity": "175"
                }
           },
 
@@ -1655,7 +1692,12 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7152",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Mário Augusto de Souza, 54 Bairro: Centro",
+                    "turmas": "Berçario I / Pé-Esc. II",
+                    "students": "217",
+                    "capacity": "211"
+
                }
           },
 
@@ -1670,7 +1712,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7195",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Joinville, SN Bairro: Petrópolis",
+                    "turmas": "Berçario I / Pé-Esc. II",
+                    "students": "151",
+                    "capacity": "165"
                }
           },
 
@@ -1685,7 +1731,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7199",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Esporte Clube Corinthias, 850 Bairro: Santa Mônica",
+                    "turmas": "Berçario I / Pé-Esc. II",
+                    "students": "200",
+                    "capacity": "224"
                }
           },
 
@@ -1700,7 +1750,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7165",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Nossa Senhora da Saúde, SN Bairro: Guarujá",
+                    "turmas": "Maternal Misto / Pé-Esc. II",
+                    "students": "91",
+                    "capacity": "90"
                }
           },
 
@@ -1715,10 +1769,15 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7551",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua José Maria Ribas Pinto, SN Bairro: Promorar",
+                    "turmas": "Berçario I / Pé-Esc. II",
+                    "students": "160",
+                    "capacity": "156"
                }
           },
-
+          
+          //Continuar a inserir turmas/ students/rua/capacity
           {
                "type": "Feature",
                "geometry": {
