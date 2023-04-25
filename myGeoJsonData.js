@@ -2121,8 +2121,6 @@ var myGeoJsonData = {
                }
           },
 
-                              //Continuar a inserir turmas/ students/rua/capacity
-
           {
                "type": "Feature",
                "geometry": {
@@ -2134,7 +2132,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7235",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua José Vilson Muniz, SN Bairro: Santa Cândida",
+                    "turmas": "Maternal Misto",
+                    "students": "14",
+                    "capacity": "12"
                }
           },
 
@@ -2149,7 +2151,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7200",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Djaime Joaquim Alves, SN Bairro: Passo Fundo",
+                    "turmas": "Berçario Misto/ Pré-Esc. II",
+                    "students": "72",
+                    "capacity": "79"
                }
           },
 
@@ -2164,7 +2170,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7238",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Santo Antônio, 282 Bairro: Distrito de Índios",
+                    "turmas": "Berçario Misto/ Pré Misto",
+                    "students": "16",
+                    "capacity": "45"
                }
           },
 
@@ -2179,7 +2189,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7173",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua 31 de março, S/N Bairro: Guarujá",
+                    "turmas": "Berçario I / Pré-Esc. II",
+                    "students": "231",
+                    "capacity": "220"
 
                }
           },
@@ -2199,7 +2213,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7231",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Av. Alfeu Rodolfo da Silva, 325 Bairro: Gralha Azul",
+                    "turmas": "Berçario I / Pré-Esc. II",
+                    "students": "92",
+                    "capacity": "101"
                }
           },
           {
@@ -2217,7 +2235,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7179",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Bom Jesus, 336	Bairro: Ipiranga",
+                    "turmas": "Maternal Misto / Pré-Esc. II",
+                    "students": "50",
+                    "capacity": "52"
                }
           },
           {
@@ -2235,7 +2257,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7181",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Av. Castelo Branco, 1840 Bairro: Ferrovia",
+                    "turmas": "Berçario Misto / Pré-Esc. II",
+                    "students": "90",
+                    "capacity": "93"
                }
           },
           {
@@ -2253,7 +2279,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7154",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Jerusalém, 524 Bairro: Vila Mariza",
+                    "turmas": "Berçario Misto / Pré Misto",
+                    "students": "114",
+                    "capacity": "111"
                }
           },
           {
@@ -2271,7 +2301,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7207",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Maria Arlene da Luz, SN	Bairro: Santo Antonio",
+                    "turmas": "Maternal Misto ",
+                    "students": "09",
+                    "capacity": "15"
                }
           },
           {
@@ -2289,7 +2323,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7232",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Pedro Ivo Campos, SN Bairro: Araucária",
+                    "turmas": "Berçário I / Pré-Esc. II ",
+                    "students": "144",
+                    "capacity": "139"
                }
           },
           {
@@ -2307,7 +2345,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7158",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Bartolomeu de Gusmão ,SN Bairro: Bom Jesus",
+                    "turmas": "Maternal Misto / Pré Misto",
+                    "students": "37",
+                    "capacity": "36"
                }
           },
           {
@@ -2325,7 +2367,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7209",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Das Laranjeiras, SN Bairro: Caroba",
+                    "turmas": "Berçario I / Pré-Esc. I",
+                    "students": "112",
+                    "capacity": "100"
                }
           },
           {
@@ -2343,9 +2389,15 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7161",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Carlos Chagas, SN	Bairro: Conta Dinheiro",
+                    "turmas": "Maternal I / Pré Misto",
+                    "students": "43",
+                    "capacity": "41"
                }
           },
+                                        //Continuar a inserir turmas/ students/rua/capacity
+
           {
                "type": "Feature",
                "geometry": {
