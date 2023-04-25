@@ -1892,8 +1892,6 @@ var myGeoJsonData = {
                }
           },
 
-                    //Continuar a inserir turmas/ students/rua/capacity
-
           {
                "type": "Feature",
                "geometry": {
@@ -1905,7 +1903,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7169",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Claudio Manoel da Costa, 926	Bairro: Várzea",
+                    "turmas": "Pré-II / Pré-Esc. Misto",
+                    "students": "54",
+                    "capacity": "55"
                }
           },
 
@@ -1920,7 +1922,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7219",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Jairo Anésio Pilar, SN	Bairro: Vila Camboni",
+                    "turmas": "Berçario Misto / Pré-Esc. II",
+                    "students": "83",
+                    "capacity": "90"
                }
           },
 
@@ -1935,7 +1941,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7197",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Sergipe, 73 Bairro: São Cristovão",
+                    "turmas": "Berçario I / Maternal II",
+                    "students": "139",
+                    "capacity": "135"
                }
           },
 
@@ -1950,7 +1960,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7554",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Visconde de Cairú, SN Bairro: Centenário",
+                    "turmas": "Berçario I / Berçario II",
+                    "students": "23",
+                    "capacity": "22"
                }
           },
 
@@ -1965,7 +1979,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7233",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Cristóvão Colombo, SN	Bairro: Guarujá",
+                    "turmas": "Berçario Misto",
+                    "students": "15",
+                    "capacity": "15"
                }
           },
 
@@ -1980,7 +1998,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7203",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Bom Jesus, SN	 Bairro: Ipiranga",
+                    "turmas": "Berçario I / Pré Misto",
+                    "students": "48",
+                    "capacity": "46"
                }
           },
 
@@ -1996,7 +2018,11 @@ var myGeoJsonData = {
                     "marker-symbol": "school",
                     "styleUrl": "",
                     "telephone": "(49) 3019-7202",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Edmundo Soldatelli, SN	Bairro: Santa Helena",
+                    "turmas": "Berçario II / Pré-Esc. II",
+                    "students": "90",
+                    "capacity": "85"
                }
           },
 
@@ -2011,7 +2037,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7156",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Av. Castelo Branco, 170	Bairro: Universitário",
+                    "turmas": "Berçario I / Pré-Esc. II",
+                    "students": "216",
+                    "capacity": "250"
                }
           },
 
@@ -2026,7 +2056,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7221",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Salustiano Neto, SN Bairro: São Luiz",
+                    "turmas": "Berçario I / Maternal. II",
+                    "students": "65",
+                    "capacity": "58"
                }
           },
 
@@ -2041,7 +2075,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7186",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua D. Joaquim do Arco Verde, SN	Bairro: Centenário",
+                    "turmas": "Berçario I / Pré-Esc. II",
+                    "students": "116",
+                    "capacity": "112"
                }
           },
 
@@ -2056,7 +2094,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7162",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Av. Castelo BrancoS, SN	Bairro: Universitário",
+                    "turmas": "Berçario II / Pré-Esc. II",
+                    "students": "52",
+                    "capacity": "64"
                }
           },
 
@@ -2071,9 +2113,15 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7228",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Frontino Arruda SN	Bairro: Promorar",
+                    "turmas": "Berçario II / Pré-Esc. II",
+                    "students": "131",
+                    "capacity": "140"
                }
           },
+
+                              //Continuar a inserir turmas/ students/rua/capacity
 
           {
                "type": "Feature",
