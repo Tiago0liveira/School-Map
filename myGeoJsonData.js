@@ -2396,8 +2396,6 @@ var myGeoJsonData = {
                     "capacity": "41"
                }
           },
-                                        //Continuar a inserir turmas/ students/rua/capacity
-
           {
                "type": "Feature",
                "geometry": {
@@ -2413,7 +2411,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7178",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Inocêncio Alves de Brito, 151 Bairro: Guadalajara",
+                    "turmas": "Berçario Misto / Pré-Esc. II",
+                    "students": "61",
+                    "capacity": "75"
                }
           },
           {
@@ -2431,7 +2433,12 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7223",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Av. Luis de Camões, 28 Bairro: Maria Luiza",
+                    "turmas": "Berçario I / Pré-Esc. II",
+                    "students": "96",
+                    "capacity": "95"
+               
                }
           },
           {
@@ -2449,7 +2456,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7191",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua José Soares Silverio, SN Bairro: Santa Maria",
+                    "turmas": "Maternal Misto / Pré Misto",
+                    "students": "85",
+                    "capacity": "90"
                }
           },
           {
@@ -2467,7 +2478,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7198",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Luíz Floriani Junior, SN	Bairro: Santa Mônica",
+                    "turmas": "Berçario Misto / Maternal Misto",
+                    "students": "31",
+                    "capacity": "28"
                }
           },
 
@@ -2488,7 +2503,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7553",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Clito Zapelini Neto, 627 Bairro: Vila Maria",
+                    "turmas": "Maternal Misto",
+                    "students": "17",
+                    "capacity": "18"
                }
           },
           {
@@ -2506,7 +2525,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7552",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua João Arcedílio M. Andrade, SN Bairro: Santa Clara",
+                    "turmas": "Berçario Misto / Pré-Esc. II",
+                    "students": "74",
+                    "capacity": "90"
                }
           },
 
@@ -2525,7 +2548,12 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7188",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Manoel Lino de Jesus, SN Bairro: Conte",
+                    "turmas": "Berçario Misto / Maternal I",
+                    "students": "22",
+                    "capacity": "22"
+               
                }
           },
 
@@ -2544,7 +2572,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7224",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua João Cruz Junior, 512 Bairro: Triângulo",
+                    "turmas": "Maternal I / Pré-Esc II",
+                    "students": "81",
+                    "capacity": "80"
                }
           },
           {
@@ -2562,7 +2594,11 @@ var myGeoJsonData = {
                     "marker-color": "#191fc2",
                     "marker-symbol": "school",
                     "telephone": "(49) 3019-7227",
-                    "marker-size": "medium"
+                    "marker-size": "medium",
+                    "rua":"Rua Visconde de Cairú, 197 Bairro: Centenário",
+                    "turmas": "Maternal I / Pré-Esc II",
+                    "students": "72",
+                    "capacity": "72"
                }
           },
      ]
