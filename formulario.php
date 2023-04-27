@@ -107,31 +107,116 @@ if (isset($_POST['submit'])) {
       </select>
 
 
-
-      <label for="escola">Escola que deseja Se Inscrever:</label>
-      <select name="escola" id="escola" required>
-        <option value="Selecione uma Escola"></option>
-        <option value="CEIM Noé José dos Santos">CEIM Noé José dos Santos</option>
-        <option value="EMEB Anjo da Guarda">EMEB Anjo da Guarda</option>
-        <option value="EMEB Bom Jesus">EMEB Bom Jesus</option>
-        <option value="EMEB Cel. Manoel Thiago de Castro">EMEB Cel. Manoel Thiago de Castro</option>
-        <option value="EMEB Dom Daniel Hostin">EMEB Dom Daniel Hostin</option>
-        <option value="EMEB Frei Bernardino">EMEB Frei Bernardino</option>
-        <option value="EMEB Herminio Pinheiro Junior">EMEB Herminio Pinheiro Junior</option>
-        <option value="EMEB Indios">EMEB Indios</option>
-        <option value="EMEB Itinerante Maria Alice Wolff de Souza">EMEB Itinerante Maria Alice Wolff de Souza</option>
-        <option value="EMEB Izabel Thiesen Roseto">EMEB Izabel Thiesen Roseto</option>
-        <option value="EMEB Izidoro Marin">EMEB Izidoro Marin</option>
-        <option value="EMEB Jardelina Furtado Pereira">EMEB Jardelina Furtado Pereira</option>
-        <option value="EMEB Juscelino Kubitschek de Oliveira">EMEB Juscelino Kubitschek de Oliveira</option>
-        <option value="EMEB Lupércio de Oliveira Köeche">EMEB Lupércio de Oliveira Köeche</option>
-        <option value="EMEB Nicanor Rodrigues Goulart">EMEB Nicanor Rodrigues Goulart</option>
-        <option value="EMEB Nossa Senhora dos Prazeres">EMEB Nossa Senhora dos Prazeres</option>
-        <option value="EMEB Ondina Neves Bleyer">EMEB Ondina Neves Bleyer</option>
-        <option value="EMEB Prefeito Waldo Costa">EMEB Prefeito Waldo Costa</option>
-        <option value="EMEB Professor Antônio Joaquim Henriques">EMEB Professor Antônio Joaquim Henriques</option>
-        <option value="EMEB Santa Helena">EMEB Santa Helena</option>
+      <label for="tipo_escola">Qual o tipo da escola?</label>
+      <select name="tipo_escola" id="tipo_escola" required onchange="mostrarCampoCeim(), mostrarCampoEmeb(), mostrarCampoEmef()">
+        <option value="">-- Selecione --</option>
+        <option value="ceim">CEIM</option>
+        <option value="emeb">EMEB</option>
+        <option value="emef">EMEF</option>
       </select>
+
+      <div id="campo-ceim" style="display:none;">
+        <label for="escola_ceim">Selecione Uma Escola CEIM:</label>
+        <select name="escola_ceim" id="escola_ceim">
+          <option value="">-- Selecione --</option>
+          <option value="CEIM Noé José dos Santos">CEIM Noé José dos Santos</option>
+          <option value="CEIM Professor Trajano">CEIM Professor Trajano</option>
+          <option value="CEIM Maura do Pilar">CEIM Maura do Pilar </option>
+          <option value="CEIM Moranguinho">CEIM Moranguinho </option>
+          <option value="CEIM Mutirão">CEIM Mutirão</option>
+          <option value="CEIM Nossa Senhora dos Prazeres">CEIM Nossa Senhora dos Prazeres </option>
+          <option value=" CEIM Professora Valéria Guimarães Goss">CEIM Professora Valéria Guimarães Goss </option>
+          <option value="CEIM Primeiros Passos">CEIM  Primeiros Passos</option>
+          <option value="CEIMProf. Rosvita Lima Borges ">CEIM Prof. Rosvita Lima Borges </option>
+          <option value="CEIM CEIM Professora Maria Sônia De Quevedo">CEIM  CEIM Professora Maria Sônia De Quevedo</option>
+          <option value="CEIM ">CEIM  </option>
+          <option value="CEIM ">CEIM  </option>
+          <option value="CEIM ">CEIM  </option>
+          <option value="CEIM ">CEIM  </option>
+          <option value="CEIM ">CEIM  </option>
+          <option value="CEIM ">CEIM  </option>
+          <option value="CEIM ">CEIM  </option>
+          <option value="CEIM ">CEIM  </option>
+          <option value="CEIM ">CEIM  </option>
+          <option value="CEIM ">CEIM  </option>
+          <option value="CEIM ">CEIM  </option>
+          <option value="CEIM ">CEIM  </option>
+          <option value="CEIM ">CEIM  </option>
+          <option value="CEIM ">CEIM  </option>
+          <option value="CEIM ">CEIM  </option>
+          <option value="CEIM ">CEIM  </option>
+          <option value="CEIM ">CEIM  </option>
+          <option value="CEIM ">CEIM  </option>
+          <option value="CEIM ">CEIM  </option>
+
+        
+        </select>
+      </div>
+
+      <div id="campo-emeb" style="display:none;">
+        <label for="escola_emeb">Selecione Uma Escola EMEB:</label>
+        <select name="escola_emeb" id="escola_emeb">
+          <option value="">-- Selecione --</option>
+          <option value="EMEB Anjo da Guarda">EMEB Anjo da Guarda</option>
+          <option value="EMEB Bom Jesus">EMEB Bom Jesus</option>
+          <option value="EMEB Cel. Manoel Thiago de Castro">EMEB Cel. Manoel Thiago de Castro</option>
+          <option value="EMEB Dom Daniel Hostin">EMEB Dom Daniel Hostin</option>
+          <option value="EMEB Frei Bernardino">EMEB Frei Bernardino</option>
+          <option value="EMEB Herminio Pinheiro Junior">EMEB Herminio Pinheiro Junior</option>
+          <option value="EMEB Indios">EMEB Indios</option>
+          <option value="EMEB Itinerante Maria Alice Wolff de Souza">EMEB Itinerante Maria Alice Wolff de Souza</option>
+          <option value="EMEB Izabel Thiesen Roseto">EMEB Izabel Thiesen Roseto</option>
+          <option value="EMEB Izidoro Marin">EMEB Izidoro Marin</option>
+          <option value="EMEB Jardelina Furtado Pereira">EMEB Jardelina Furtado Pereira</option>
+          <option value="EMEB Juscelino Kubitschek de Oliveira">EMEB Juscelino Kubitschek de Oliveira</option>
+          <option value="EMEB Lupércio de Oliveira Köeche">EMEB Lupércio de Oliveira Köeche</option>
+          <option value="EMEB Nicanor Rodrigues Goulart">EMEB Nicanor Rodrigues Goulart</option>
+          <option value="EMEB Nossa Senhora dos Prazeres">EMEB Nossa Senhora dos Prazeres</option>
+          <option value="EMEB Ondina Neves Bleyer">EMEB Ondina Neves Bleyer</option>
+          <option value="EMEB Prefeito Waldo Costa">EMEB Prefeito Waldo Costa</option>
+          <option value="EMEB Professor Antônio Joaquim Henriques">EMEB Professor Antônio Joaquim Henriques</option>
+          <option value="EMEB Santa Helena">EMEB Santa Helena</option>
+        </select>
+      </div>
+
+
+      <div id="campo-emef" style="display:none;">
+        <label for="escola_emef">Selecione Uma Escola EMEF:</label>
+        <select name="escola_emef" id="escola_emef">
+          <option value="">-- Selecione --</option>
+          <option value="EMEF Anjo da Guarda">EMEF Anjo da Guarda</option>
+        </select>
+      </div>
+      <script>
+        function mostrarCampoCeim() {
+          var tipoEscola = document.getElementById("tipo_escola").value;
+          if (tipoEscola === "ceim") {
+            document.getElementById("campo-ceim").style.display = "block";
+          } else {
+            document.getElementById("campo-ceim").style.display = "none";
+          }
+        }
+
+        function mostrarCampoEmeb() {
+          var tipoEscola = document.getElementById("tipo_escola").value;
+          if (tipoEscola === "emeb") {
+            document.getElementById("campo-emeb").style.display = "block";
+          } else {
+            document.getElementById("campo-emeb").style.display = "none";
+          }
+        }
+
+        function mostrarCampoEmef() {
+          var tipoEscola = document.getElementById("tipo_escola").value;
+          if (tipoEscola === "emef") {
+            document.getElementById("campo-emef").style.display = "block";
+          } else {
+            document.getElementById("campo-emef").style.display = "none";
+          }
+        }
+      </script>
+
+
 
 
       <label for="genero">Sexo:</label>
@@ -236,6 +321,21 @@ if (isset($_POST['submit'])) {
 
 
 
+
+
+
+
+      <script>
+        $(document).ready(function() {
+          $('#tipo_escola').change(function() {
+            if ($(this).val() == 'emeb') {
+              $('#campo-emeb').show();
+            } else {
+              $('#campo-emeb').hide();
+            }
+          });
+        });
+      </script>
 
       <script>
         // Verifica qual é o valor de pai_registro  e adiciona os campos ou mantem oculto
