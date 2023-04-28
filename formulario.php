@@ -36,6 +36,7 @@ if (isset($_POST['submit'])) {
   $profi_pai = $_POST['profi_pai'];
   $cpf_pai = $_POST['cpf_pai'];
   $email_pai = $_POST['email_pai'];
+  
 
   //Adiciona os dados registrados no formulario ao banco de dados
   $result = mysqli_query($conexao, "INSERT INTO  matriculas(nome,rg,cpf,tipo_sanguineo,naturalidade,tipo_escola,ano_escolar,data_nasc,genero,formulario,ensino_escolar,turno,
@@ -109,9 +110,9 @@ if (isset($_POST['submit'])) {
       <label for="tipo_escola">Qual o tipo da escola?</label>
       <select name="tipo_escola" id="tipo_escola" required onchange="mostrarCampoCeim(), mostrarCampoEmeb(), mostrarCampoEmef()">
         <option value="">-- Selecione --</option>
-        <option value="ceim">CEIM</option>
-        <option value="emeb">EMEB</option>
-        <option value="emef">EMEF</option>
+        <option value="CEIM">CEIM</option>
+        <option value="EMEB">EMEB</option>
+        <option value="EMEF">EMEF</option>
       </select>
 
       <div id="campo-ceim" style="display:none;">
@@ -267,7 +268,7 @@ if (isset($_POST['submit'])) {
       <script>
         function mostrarCampoCeim() {
           var tipoEscola = document.getElementById("tipo_escola").value;
-          if (tipoEscola === "ceim") {
+          if (tipoEscola === "CEIM") {
             document.getElementById("campo-ceim").style.display = "block";
           } else {
             document.getElementById("campo-ceim").style.display = "none";
@@ -276,7 +277,7 @@ if (isset($_POST['submit'])) {
 
         function mostrarCampoEmeb() {
           var tipoEscola = document.getElementById("tipo_escola").value;
-          if (tipoEscola === "emeb") {
+          if (tipoEscola === "EMEB") {
             document.getElementById("campo-emeb").style.display = "block";
           } else {
             document.getElementById("campo-emeb").style.display = "none";
@@ -285,7 +286,7 @@ if (isset($_POST['submit'])) {
 
         function mostrarCampoEmef() {
           var tipoEscola = document.getElementById("tipo_escola").value;
-          if (tipoEscola === "emef") {
+          if (tipoEscola === "EMEB") {
             document.getElementById("campo-emef").style.display = "block";
           } else {
             document.getElementById("campo-emef").style.display = "none";
