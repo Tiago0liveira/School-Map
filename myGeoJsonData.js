@@ -344,7 +344,7 @@ var myGeoJsonData = {
                     "coordinates": [-50.3197261, -27.7853568, 0]
                },
                "properties": {
-                    "name": "Emeb Izabel Thiesen Roseto",
+                    "name": "EMEB Izabel Thiesen Roseto",
                     "rua": "Rua: Clitto Zapelini Neto, 627 Bairro: Vila Maria",
                     "styleUrl": "#icon-1899-A52714-labelson-nodesc",
                     "styleHash": "71208e33",
@@ -364,7 +364,7 @@ var myGeoJsonData = {
                     "coordinates": [-50.3779321, -27.8047969, 0]
                },
                "properties": {
-                    "name": "Emeb Izidoro Marin",
+                    "name": "EMEB Izidoro Marin",
                     "rua": "Rua: Das Laranjeiras,140 Bairro: Caroba",
                     "styleUrl": "#icon-1899-A52714-labelson-nodesc",
                     "styleHash": "71208e33",

@@ -12,14 +12,13 @@ if (isset($_POST['submit'])) {
   $cpf = $_POST['cpf'];
   $tipo_sanguineo = $_POST['tipo_sanguineo'];
   $naturalidade = $_POST['naturalidade'];
-  $escola = $_POST['escola'];
+  $tipo_escola = $_POST['tipo_escola'];
   $ano_escolar = $_POST['ano_escolar'];
   $data_nasc = $_POST['data_nascimento'];
   $genero = $_POST['genero'];
   $formulario = $_POST['formulario'];
   $ensino_escolar = $_POST['ensino_escolar'];
   $turno = $_POST['periodo'];
-
   $cep = $_POST['cep'];
   $logradouro = $_POST['logradouro'];
   $bairro = $_POST['bairro'];
@@ -39,9 +38,9 @@ if (isset($_POST['submit'])) {
   $email_pai = $_POST['email_pai'];
 
   //Adiciona os dados registrados no formulario ao banco de dados
-  $result = mysqli_query($conexao, "INSERT INTO  matriculas(nome,rg,cpf,tipo_sanguineo,naturalidade,escola,ano_escolar,data_nasc,genero,formulario,ensino_escolar,turno,
+  $result = mysqli_query($conexao, "INSERT INTO  matriculas(nome,rg,cpf,tipo_sanguineo,naturalidade,tipo_escola,ano_escolar,data_nasc,genero,formulario,ensino_escolar,turno,
   cep,logradouro,bairro,cidade,numero,complemento,nome_mae,tel_mae,profi_mae,cpf_mae,email_mae,pai_registro,nome_pai,tel_pai,profi_pai,cpf_pai,email_pai )
-  VALUES('$nome','$rg','$cpf', '$tipo_sanguineo','$naturalidade', '$escola', '$ano_escolar','$data_nasc', '$genero',
+  VALUES('$nome','$rg','$cpf', '$tipo_sanguineo','$naturalidade', '$tipo_escola', '$ano_escolar','$data_nasc', '$genero',
   ' $formulario','$ensino_escolar','$turno','$cep','$logradouro', '$bairro','$cidade','$numero','$complemento','$nome_mae','$tel_mae','$profi_mae',
   '$cpf_mae','$email_mae','$pai_registro','$nome_pai','$tel_pai','$profi_pai','$cpf_pai','$email_pai') ");
 }
@@ -204,6 +203,7 @@ if (isset($_POST['submit'])) {
         <label for="escola_emeb">Selecione Uma Escola EMEB:</label>
         <select name="escola_emeb" id="escola_emeb">
           <option value="">-- Selecione --</option>
+          <option value="EMEB Aline Giovana Schmitt">EMEB Aline Giovana Schmitt</option>
           <option value="EMEB Anjo da Guarda">EMEB Anjo da Guarda</option>
           <option value="EMEB Bom Jesus">EMEB Bom Jesus</option>
           <option value="EMEB Cel. Manoel Thiago de Castro">EMEB Cel. Manoel Thiago de Castro</option>
@@ -217,12 +217,25 @@ if (isset($_POST['submit'])) {
           <option value="EMEB Jardelina Furtado Pereira">EMEB Jardelina Furtado Pereira</option>
           <option value="EMEB Juscelino Kubitschek de Oliveira">EMEB Juscelino Kubitschek de Oliveira</option>
           <option value="EMEB Lupércio de Oliveira Köeche">EMEB Lupércio de Oliveira Köeche</option>
+          <option value="EMEB Mutirão">EMEB Mutirão</option>
           <option value="EMEB Nicanor Rodrigues Goulart">EMEB Nicanor Rodrigues Goulart</option>
+          <option value="EMEB Nossa Senhora da Penha">EMEB Nossa Senhora da Penha</option>
           <option value="EMEB Nossa Senhora dos Prazeres">EMEB Nossa Senhora dos Prazeres</option>
           <option value="EMEB Ondina Neves Bleyer">EMEB Ondina Neves Bleyer</option>
+          <option value="EMEB Oscar Schweitzer">EMEB Oscar Schweitzer</option>
           <option value="EMEB Prefeito Waldo Costa">EMEB Prefeito Waldo Costa</option>
           <option value="EMEB Professor Antônio Joaquim Henriques">EMEB Professor Antônio Joaquim Henriques</option>
+          <option value="EMEB Professor Eduardo Pedro Amaral">EMEB Professor Eduardo Pedro Amaral</option>
+          <option value="EMEB Professor Fausta Rath">EMEB Professor Fausta Rath</option>
+          <option value="EMEB Professor Osni Medeiros Régis">EMEB Professor Osni Medeiros Régis</option>
+          <option value="EMEB Professor Pedro Cândido">EMEB Professor Pedro Cândido</option>
+          <option value="EMEB Professor Trajano">EMEB Professor Trajano</option>
+          <option value="EMEB Professora Belizária Rodrigues">EMEB Professora Belizária Rodrigues</option>
+          <option value="EMEB Professora Madalena Miranda Largura">EMEB Professora Madalena Miranda Largura</option>
           <option value="EMEB Santa Helena">EMEB Santa Helena</option>
+          <option value="EMEB São Vicente">EMEB São Vicente</option>
+          <option value="EMEB Saul de Athayde">EMEB Saul de Athayde</option>
+          <option value="EMEB Suzana Albino França">EMEB Suzana Albino França</option>
 
         </select>
       </div>
