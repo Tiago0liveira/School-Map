@@ -119,37 +119,84 @@ if (isset($_POST['submit'])) {
         <label for="escola_ceim">Selecione Uma Escola CEIM:</label>
         <select name="escola_ceim" id="escola_ceim">
           <option value="">-- Selecione --</option>
-          <option value="CEIM Noé José dos Santos">CEIM Noé José dos Santos</option>
-          <option value="CEIM Professor Trajano">CEIM Professor Trajano</option>
+          <option value="CEIM Adelina Tramontin Sommariva">CEIM Adelina Tramontin Sommariva</option>
+          <option value="CEIM Adotai">CEIM Adotai</option>
+          <option value="CEIM Adriana Ap. Lourenço">CEIM Adriana Ap. Lourenço</option>
+          <option value="CEIM Alfeu Rogério de Liz e Silva">CEIM Alfeu Rogério de Liz e Silva</option>
+          <option value="CEIM Alfredo Bianchini De Mathia">CEIM Alfredo Bianchini De Mathia</option>
+          <option value="CEIM Andrea Maris Santa Ana">CEIM Andrea Maris Santa Ana </option>
+          <option value="CEIM Araucária">CEIM Araucária</option>
+          <option value="CEIM Aristides de Oliveira Campolin">CEIM Aristides de Oliveira Campolin </option>
+          <option value="CEIM Assistência Nossa Senhora dos Prazeres">CEIM Assistência Nossa Senhora dos Prazeres </option>
+          <option value="CEIM Bairro Caroba">CEIM Bairro Caroba</option>
+          <option value="CEIM Bairro Conta Dinheiro">CEIM Bairro Conta Dinheiro</option>
+          <option value="CEIM Bairro Guadalajara">CEIM Bairro Guadalajara</option>
+          <option value="CEIM Bairro Jardim Celina extensão CEIM André Luiz">CEIM Bairro Jardim Celina extensão CEIM André Luiz </option>
+          <option value="CEIM Bairro Jardim Residencial Bela Vista">CEIM Bairro Jardim Residencial Bela Vista</option>
+          <option value="CEIM Bairro Santa Cândida">CEIM Bairro Santa Cândida</option>
+          <option value="CEIM Bairro Santa Maria">CEIM Bairro Santa Maria</option>
+          <option value="CEIM Bairro Santa Mônica">CEIM Bairro Santa Mônica</option>
+          <option value="CEIM Bairro São Pedro">CEIM Bairro São Pedro </option>
+          <option value="CEIM Bairro Vila Maria">CEIM Bairro Vila Maria</option>
+          <option value="CEIM Bom Jesus">CEIM Bom Jesus</option>
+          <option value="CEIM Cacilda Altomar">CEIM Cacilda Altomar</option>
+          <option value="CEIM Cantinho Feliz">CEIM Cantinho Feliz</option>
+          <option value="CEIM Celina Tomé Melegari">CEIM Celina Tomé Melegari </option>
+          <option value="CEIM Chapeuzinho Vermelho">CEIM Chapeuzinho Vermelho </option>
+          <option value="CEIM Claricio Madruga de Andrade">CEIM Claricio Madruga de Andrade</option>
+          <option value="CEIM Distrito de Indios">CEIM Distrito de Indios</option>
+          <option value="CEIM Domingas Biachini">CEIM Domingas Biachini </option>
+          <option value="CEIM Elvas Flávio Lenzi">CEIM Elvas Flávio Lenzi </option>
+          <option value="CEIM Emilia Furtado Ramos">CEIM Emilia Furtado Ramos</option>
+          <option value="CEIM Emília Ribeiro de Barros">CEIM Emília Ribeiro de Barros</option>
+          <option value="CEIM Eudalto Lopes de Sá">CEIM Eudalto Lopes de Sá </option>
+          <option value="CEIM Filhos dos Funcionários da Prefeitura">CEIM Filhos dos Funcionários da Prefeitura</option>
+          <option value="CEIM Gente Miúda">CEIM Gente Miúda</option>
+          <option value="CEIM Girassol">CEIM Girassol</option>
+          <option value="CEIM Gralha Azul">CEIM Gralha Azul</option>
+          <option value="CEIM Hermínia Graciosa Zago">CEIM Hermínia Graciosa Zago</option>
+          <option value="CEIM Iraci Souza Steinke">CEIM Iraci Souza Steinke</option>
+          <option value="CEIM Irmã Dulce">CEIM Irmã Dulce</option>
+          <option value="CEIM Ivo Pacheco de Andrade">CEIM Ivo Pacheco de Andrade</option>
+          <option value="CEIM Jhonatan Kuster Lehmkuhl">CEIM Jhonatan Kuster Lehmkuhl</option>
+          <option value="CEIM João José Theodoro da Costa Netto">CEIM João José Theodoro da Costa Netto</option>
+          <option value="CEIM Juarez Pereira da Silva">CEIM Juarez Pereira da Silva</option>
+          <option value="CEIM Judite Terezinha Dias">CEIM Judite Terezinha Dias</option>
+          <option value="CEIM Justine Barth">CEIM Justine Barth</option>
+          <option value="CEIM Leonina Rodrigues da Costa">CEIM Leonina Rodrigues da Costa </option>
+          <option value="CEIM Marco Floriani Bordin">CEIM Marco Floriani Bordin </option>
+          <option value="CEIM Maria Conceição Nunes">CEIM  Maria Conceição Nunes</option>
+          <option value="CEIM Maria de Castro Arruda">CEIM Maria de Castro Arruda </option>
+          <option value="CEIM Maria Joana de Arruda">CEIM Maria Joana de Arruda</option>
+          <option value="CEIM Marieta Camargo dos Santos">CEIM Marieta Camargo dos Santos </option>
+          <option value="CEIM Marina Martins Borges">CEIM Marina Martins Borges</option>
           <option value="CEIM Maura do Pilar">CEIM Maura do Pilar </option>
+          <option value="CEIM Miriam Regina de Oliveira Koeche">CEIM Miriam Regina de Oliveira Koeche</option>
           <option value="CEIM Moranguinho">CEIM Moranguinho </option>
           <option value="CEIM Mutirão">CEIM Mutirão</option>
+          <option value="CEIM Nelson Martins de Almeida">CEIM Nelson Martins de Almeida </option>
+          <option value="CEIM Noé José dos Santos">CEIM Noé José dos Santos</option>
+          <option value="CEIM Nossa Senhora do Caravágio">CEIM Nossa Senhora do Caravágio </option>
           <option value="CEIM Nossa Senhora dos Prazeres">CEIM Nossa Senhora dos Prazeres </option>
-          <option value=" CEIM Professora Valéria Guimarães Goss">CEIM Professora Valéria Guimarães Goss </option>
-          <option value="CEIM Primeiros Passos">CEIM  Primeiros Passos</option>
-          <option value="CEIMProf. Rosvita Lima Borges ">CEIM Prof. Rosvita Lima Borges </option>
-          <option value="CEIM CEIM Professora Maria Sônia De Quevedo">CEIM  CEIM Professora Maria Sônia De Quevedo</option>
-          <option value="CEIM ">CEIM  </option>
-          <option value="CEIM ">CEIM  </option>
-          <option value="CEIM ">CEIM  </option>
-          <option value="CEIM ">CEIM  </option>
-          <option value="CEIM ">CEIM  </option>
-          <option value="CEIM ">CEIM  </option>
-          <option value="CEIM ">CEIM  </option>
-          <option value="CEIM ">CEIM  </option>
-          <option value="CEIM ">CEIM  </option>
-          <option value="CEIM ">CEIM  </option>
-          <option value="CEIM ">CEIM  </option>
-          <option value="CEIM ">CEIM  </option>
-          <option value="CEIM ">CEIM  </option>
-          <option value="CEIM ">CEIM  </option>
-          <option value="CEIM ">CEIM  </option>
-          <option value="CEIM ">CEIM  </option>
-          <option value="CEIM ">CEIM  </option>
-          <option value="CEIM ">CEIM  </option>
-          <option value="CEIM ">CEIM  </option>
+          <option value="CEIM Pequeno Príncipe">CEIM Pequeno Príncipe </option>
+          <option value="CEIM Primeiros Passos">CEIM Primeiros Passos</option>
+          <option value="CEIM Prof. Rosvita Lima Borges ">CEIM Prof. Rosvita Lima Borges </option>
+          <option value="CEIM Professor Trajano">CEIM Professor Trajano</option>
+          <option value="CEIM Professora Maria Sônia De Quevedo">CEIM Professora Maria Sônia De Quevedo</option>
+          <option value="CEIM Professora Rosimery Guimarães Lira">CEIM Professora Rosimery Guimarães Lira </option>
+          <option value="CEIM Professora Valéria Guimarães Goss">CEIM Professora Valéria Guimarães Goss </option>
+          <option value="CEIM Salto do Caveiras">CEIM Salto do Caveiras </option>
+          <option value="CEIM São Paulo">CEIM São Paulo </option>
+          <option value="CEIM Sebastião Waltrick Farias">CEIM Sebastião Waltrick Farias </option>
+          <option value="CEIM Sempre Viva">CEIM Sempre Viva</option>
+          <option value="CEIM Sepé Tiarajú">CEIM Sepé Tiarajú</option>
+          <option value="CEIM Suzete Conceição Soares Córdova">CEIM Suzete Conceição Soares Córdova</option>
+          <option value="CEIM Tia Anita">CEIM Tia Anita</option>
+          <option value="CEIM Tia Bira">CEIM Tia Bira</option>
+          <option value="CEIM Vila da Criança">CEIM Vila da Criança</option>
+          <option value="CEIM Vivaldino Silva Lourenço">CEIM Vivaldino Silva Lourenço</option>
 
-        
+
         </select>
       </div>
 
@@ -176,6 +223,7 @@ if (isset($_POST['submit'])) {
           <option value="EMEB Prefeito Waldo Costa">EMEB Prefeito Waldo Costa</option>
           <option value="EMEB Professor Antônio Joaquim Henriques">EMEB Professor Antônio Joaquim Henriques</option>
           <option value="EMEB Santa Helena">EMEB Santa Helena</option>
+
         </select>
       </div>
 
@@ -184,7 +232,23 @@ if (isset($_POST['submit'])) {
         <label for="escola_emef">Selecione Uma Escola EMEF:</label>
         <select name="escola_emef" id="escola_emef">
           <option value="">-- Selecione --</option>
-          <option value="EMEF Anjo da Guarda">EMEF Anjo da Guarda</option>
+
+          <option value="EMEF Antonieta de Barros">EMEF Antonieta de Barros</option>
+          <option value="EMEF Barreiros">EMEF Barreiros</option>
+          <option value="EMEF Cândido Batista Dias (Rancho de Tabuas)">EMEF Cândido Batista Dias (Rancho de Tabuas)</option>
+          <option value="EMEF Dom Honorato Piazzera(São Sebastião)">EMEF Dom Honorato Piazzera(São Sebastião)</option>
+          <option value="EMEF Gramados">EMEF Gramados</option>
+          <option value="EMEF Irene Rafaeli de Andrade(Cadeado)">EMEF Irene Rafaeli de Andrade(Cadeado)</option>
+          <option value="EMEF Macacos">EMEF Macacos</option>
+          <option value="EMEF Pedras Brancas (Mirantes)">EMEF Pedras Brancas (Mirantes)</option>
+          <option value="EMEF Professor Edson Pereira (Potreiros)">EMEF Professor Edson Pereira (Potreiros)</option>
+          <option value="EMEF Professora Eni Rosa Dos Santos (Cajurú)">EMEF Professora Eni Rosa Dos Santos (Cajurú)</option>
+          <option value="EMEF Rio Câdeado">EMEF Rio Câdeado</option>
+          <option value="EMEF Salto do Caveiras">EMEF Salto do Caveiras</option>
+          <option value="EMEF Serraria Segredo(Pedras Brancas)">EMEF Serraria Segredo(Pedras Brancas)</option>
+          <option value="EMEF Vergílio Godinho (Lambedor)">EMEF Vergílio Godinho (Lambedor)</option>
+          <option value="EMEF Visconde de Araguaia (Coxilha Rica)">EMEF Visconde de Araguaia (Coxilha Rica)</option>
+
         </select>
       </div>
       <script>
