@@ -1,5 +1,7 @@
 <?php
-
+// echo "<pre>";
+// var_dump($_POST);
+// die;
 //Verifica se o Botão de enviar foi pressionado
 if (isset($_POST['submit'])) {
 
@@ -13,6 +15,7 @@ if (isset($_POST['submit'])) {
   $tipo_sanguineo = $_POST['tipo_sanguineo'];
   $naturalidade = $_POST['naturalidade'];
   $tipo_escola = $_POST['tipo_escola'];
+  $nome_escola = $_POST['nome_escola'];
   $ano_escolar = $_POST['ano_escolar'];
   $data_nasc = $_POST['data_nascimento'];
   $genero = $_POST['genero'];
@@ -36,12 +39,11 @@ if (isset($_POST['submit'])) {
   $profi_pai = $_POST['profi_pai'];
   $cpf_pai = $_POST['cpf_pai'];
   $email_pai = $_POST['email_pai'];
-  
 
   //Adiciona os dados registrados no formulario ao banco de dados
-  $result = mysqli_query($conexao, "INSERT INTO  matriculas(nome,rg,cpf,tipo_sanguineo,naturalidade,tipo_escola,ano_escolar,data_nasc,genero,formulario,ensino_escolar,turno,
+  $result = mysqli_query($conexao, "INSERT INTO  matriculas(nome,rg,cpf,tipo_sanguineo,naturalidade,tipo_escola,nome_escola,ano_escolar,data_nasc,genero,formulario,ensino_escolar,turno,
   cep,logradouro,bairro,cidade,numero,complemento,nome_mae,tel_mae,profi_mae,cpf_mae,email_mae,pai_registro,nome_pai,tel_pai,profi_pai,cpf_pai,email_pai )
-  VALUES('$nome','$rg','$cpf', '$tipo_sanguineo','$naturalidade', '$tipo_escola', '$ano_escolar','$data_nasc', '$genero',
+  VALUES('$nome','$rg','$cpf', '$tipo_sanguineo','$naturalidade', '$tipo_escola','$nome_escola', '$ano_escolar','$data_nasc', '$genero',
   ' $formulario','$ensino_escolar','$turno','$cep','$logradouro', '$bairro','$cidade','$numero','$complemento','$nome_mae','$tel_mae','$profi_mae',
   '$cpf_mae','$email_mae','$pai_registro','$nome_pai','$tel_pai','$profi_pai','$cpf_pai','$email_pai') ");
 }
@@ -110,14 +112,14 @@ if (isset($_POST['submit'])) {
       <label for="tipo_escola">Qual o tipo da escola?</label>
       <select name="tipo_escola" id="tipo_escola" required onchange="mostrarCampoCeim(), mostrarCampoEmeb(), mostrarCampoEmef()">
         <option value="">-- Selecione --</option>
-        <option value="CEIM">CEIM</option>
-        <option value="EMEB">EMEB</option>
-        <option value="EMEF">EMEF</option>
+        <option value="ceim">CEIM</option>
+        <option value="emeb">EMEB</option>
+        <option value="emef">EMEF</option>
       </select>
 
       <div id="campo-ceim" style="display:none;">
         <label for="escola_ceim">Selecione Uma Escola CEIM:</label>
-        <select name="escola_ceim" id="escola_ceim">
+        <select id="escola_ceim">
           <option value="">-- Selecione --</option>
           <option value="CEIM Adelina Tramontin Sommariva">CEIM Adelina Tramontin Sommariva</option>
           <option value="CEIM Adotai">CEIM Adotai</option>
@@ -202,7 +204,7 @@ if (isset($_POST['submit'])) {
 
       <div id="campo-emeb" style="display:none;">
         <label for="escola_emeb">Selecione Uma Escola EMEB:</label>
-        <select name="escola_emeb" id="escola_emeb">
+        <select name="" id="escola_emeb">
           <option value="">-- Selecione --</option>
           <option value="EMEB Aline Giovana Schmitt">EMEB Aline Giovana Schmitt</option>
           <option value="EMEB Anjo da Guarda">EMEB Anjo da Guarda</option>
@@ -244,9 +246,8 @@ if (isset($_POST['submit'])) {
 
       <div id="campo-emef" style="display:none;">
         <label for="escola_emef">Selecione Uma Escola EMEF:</label>
-        <select name="escola_emef" id="escola_emef">
+        <select name="" id="escola_emef">
           <option value="">-- Selecione --</option>
-
           <option value="EMEF Antonieta de Barros">EMEF Antonieta de Barros</option>
           <option value="EMEF Barreiros">EMEF Barreiros</option>
           <option value="EMEF Cândido Batista Dias (Rancho de Tabuas)">EMEF Cândido Batista Dias (Rancho de Tabuas)</option>
@@ -268,8 +269,11 @@ if (isset($_POST['submit'])) {
       <script>
         function mostrarCampoCeim() {
           var tipoEscola = document.getElementById("tipo_escola").value;
-          if (tipoEscola === "CEIM") {
+          if (tipoEscola === "ceim") {
             document.getElementById("campo-ceim").style.display = "block";
+            document.getElementById("escola_emef").setAttribute("name", "");
+            document.getElementById("escola_emeb").setAttribute("name", "");
+            document.getElementById("escola_ceim").setAttribute("name", "nome_escola");
           } else {
             document.getElementById("campo-ceim").style.display = "none";
           }
@@ -277,8 +281,11 @@ if (isset($_POST['submit'])) {
 
         function mostrarCampoEmeb() {
           var tipoEscola = document.getElementById("tipo_escola").value;
-          if (tipoEscola === "EMEB") {
+          if (tipoEscola === "emeb") {
             document.getElementById("campo-emeb").style.display = "block";
+            document.getElementById("escola_emef").setAttribute("name", "");
+            document.getElementById("escola_emeb").setAttribute("name", "nome_escola");
+            document.getElementById("escola_ceim").setAttribute("name", "");
           } else {
             document.getElementById("campo-emeb").style.display = "none";
           }
@@ -286,8 +293,11 @@ if (isset($_POST['submit'])) {
 
         function mostrarCampoEmef() {
           var tipoEscola = document.getElementById("tipo_escola").value;
-          if (tipoEscola === "EMEB") {
+          if (tipoEscola === "emef") {
             document.getElementById("campo-emef").style.display = "block";
+            document.getElementById("escola_emef").setAttribute("name", "nome_escola");
+            document.getElementById("escola_emeb").setAttribute("name", "");
+            document.getElementById("escola_ceim").setAttribute("name", "");
           } else {
             document.getElementById("campo-emef").style.display = "none";
           }
