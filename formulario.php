@@ -2,6 +2,7 @@
 // echo "<pre>";
 // var_dump($_POST);
 // die;
+
 //Verifica se o Botão de enviar foi pressionado
 if (isset($_POST['submit'])) {
 
@@ -266,6 +267,9 @@ if (isset($_POST['submit'])) {
 
         </select>
       </div>
+
+      <!-- Valida qual campo foi o tipo de escola selecionado -->
+
       <script>
         function mostrarCampoCeim() {
           var tipoEscola = document.getElementById("tipo_escola").value;
@@ -303,9 +307,6 @@ if (isset($_POST['submit'])) {
           }
         }
       </script>
-
-
-
 
       <label for="genero">Sexo:</label>
       <select name="genero" id="genero" required>
@@ -409,22 +410,10 @@ if (isset($_POST['submit'])) {
 
 
 
+      <input type="submit" value="Enviar" name="submit" id="submit">
 
 
-
-
-      <script>
-        $(document).ready(function() {
-          $('#tipo_escola').change(function() {
-            if ($(this).val() == 'emeb') {
-              $('#campo-emeb').show();
-            } else {
-              $('#campo-emeb').hide();
-            }
-          });
-        });
-      </script>
-
+      
       <script>
         // Verifica qual é o valor de pai_registro  e adiciona os campos ou mantem oculto
         $(document).ready(function() {
@@ -472,12 +461,6 @@ if (isset($_POST['submit'])) {
         });
       </script>
 
-
-      <form action="processar_dados.php" method="POST" onsubmit="return validarFormulario()">
-
-
-        <input type="submit" value="Enviar" name="submit" id="submit">
-
       </form>
     </fieldset>
   </form>
@@ -521,9 +504,7 @@ if (isset($_POST['submit'])) {
     }
 
 
-    function validarCPF(cpf) {
-      // Código de validação do CPF aqui
-    }
+
 
     const cpfPaiInput = document.getElementById('cpf_pai');
     const cpfMaeInput = document.getElementById('cpf_mae');
