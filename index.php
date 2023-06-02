@@ -45,8 +45,9 @@
 
     <header id="topo">
         <h1 style="color:blue;">Bem vindo ao School Map</h1>
-        <p style="color: rgb(25, 25, 29);">O mapa que vai te ajudar a encontrar as escolas públicas de Lages mais
-            próximas de sua casa, dando alternativas para seu filho estudar</p>
+        <p style="color: rgb(25, 25, 29);"> Desenvolvido com o propósito de oferecer opções 
+        de instituições educacionais próximas, facilitando a busca por uma escola adequada para a educação do seu filho.
+        </p>
 
         <a href="#map" class="botao">Ver Mapa</a>
 
@@ -54,8 +55,8 @@
 
     <section id="Sobre">
         <h2 style="color:white;">Sobre</h2>
-        <p><i>O School Map foi fundado com a intenção de mostrar a localização exata de escolas públicas mais próximas,
-                essa é uma ferramenta desenvolvida com total profissionalismo para que seu usuário possa chegar aonde
+        <p><i>O School Map foi desenvolvido com a intenção de mostrar a localização exata de escolas públicas mais próximas,
+                essa é uma ferramenta criada com total profissionalismo para que o usuário possa chegar aonde
                 deseja
                 com segurança e certeza que estará seguindo o melhor caminho</i></p>
     </section>
