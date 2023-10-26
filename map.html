@@ -165,7 +165,8 @@
           },
           function (error) {
             console.log('Permissão de localização negada');
-          }
+          },
+          {  enableHighAccuracy: true, timeout: 5000, maximumAge: 0 }
         );
       } else {
         console.log('O navegador não suporta geolocalização');

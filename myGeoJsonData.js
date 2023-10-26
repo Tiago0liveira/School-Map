@@ -178,7 +178,7 @@ var myGeoJsonData = {
                "type": "Feature",
                "geometry": {
                     "type": "Point",
-                    "coordinates": [-50.3369673, -27.8349245, 0]
+                    "coordinates": [-50.33677,-27.83470, 0]
                },
                "properties": {
                     "name": "EMEB Professor Antônio Joaquim Henriques",
@@ -1177,7 +1177,7 @@ var myGeoJsonData = {
                "type": "Feature",
                "geometry": {
                     "type": "Point",
-                    "coordinates": [-50.3453035, -27.8442343, 0]
+                    "coordinates": [-50.34668,-27.84139, 0]
 
                }, 
                
@@ -1411,7 +1411,7 @@ var myGeoJsonData = {
                "type": "Feature",
                "geometry": {
                     "type": "Point",
-                    "coordinates": [-50.330972, -27.839867, 0]
+                    "coordinates": [-50.33499,-27.83821, 0]
                },
                "properties": {
                     "name": "CEIM Andrea Maris Santa Ana",
@@ -1953,7 +1953,7 @@ var myGeoJsonData = {
                "type": "Feature",
                "geometry": {
                     "type": "Point",
-                    "coordinates": [-50.335995, -27.831628, 0]
+                    "coordinates": [-50.33640,-27.83138, 0]
                },
                "properties": {
                     "name": "CEIM Maria Joana de Arruda",
@@ -1991,7 +1991,7 @@ var myGeoJsonData = {
                "type": "Feature",
                "geometry": {
                     "type": "Point",
-                    "coordinates": [-50.3452653, -27.8150509, 0]
+                    "coordinates": [-50.34630,-27.81578, 0]
                },
                "properties": {
                     "name": "CEIM Miriam Regina de Oliveira Koeche",
@@ -2224,11 +2224,7 @@ var myGeoJsonData = {
                "type": "Feature",
                "geometry": {
                     "type": "Point",
-                    "coordinates": [
-                         -50.3463789,
-                         -27.8151854,
-                         0
-                    ]
+                    "coordinates": [-50.34616, -27.81508,0 ]
                },
                "properties": {
                     "name": "CEIM Adotai",
@@ -2312,11 +2308,7 @@ var myGeoJsonData = {
                "type": "Feature",
                "geometry": {
                     "type": "Point",
-                    "coordinates": [
-                         -50.3419505,
-                         -27.8436657,
-                         0
-                    ]
+                    "coordinates": [-50.34158,-27.84324 ,0]
                },
                "properties": {
                     "name": "CEIM Araucária",

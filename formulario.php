@@ -1,7 +1,5 @@
 <?php
-// echo "<pre>";
-// var_dump($_POST);
-// die;
+
 
 //Verifica se o Botão de enviar foi pressionado
 if (isset($_POST['submit'])) {
@@ -10,6 +8,7 @@ if (isset($_POST['submit'])) {
   include_once('config.php');
 
   //Atribui os valores dos dados enviados pelo formulário 
+  //BD            VA name
   $nome = $_POST['nome'];
   $rg = $_POST['rg'];
   $cpf = $_POST['cpf'];
@@ -65,6 +64,7 @@ if (isset($_POST['submit'])) {
 
   <link rel="shortcut icon" href="img/local.jpg" type="image/x-icon">
 
+  <!-- Conecta o CSS com o formulario html contido no arquivo php -->
   <link rel="stylesheet" type="text/css" href="formulario.css">
 
 </head>
@@ -413,7 +413,7 @@ if (isset($_POST['submit'])) {
       <input type="submit" value="Enviar" name="submit" id="submit">
 
 
-      
+
       <script>
         // Verifica qual é o valor de pai_registro  e adiciona os campos ou mantem oculto
         $(document).ready(function() {
@@ -461,9 +461,10 @@ if (isset($_POST['submit'])) {
         });
       </script>
 
-      </form>
     </fieldset>
+
   </form>
+
   <script>
     //Função para validar CPF
     function validarCPF(cpf) {
@@ -482,7 +483,7 @@ if (isset($_POST['submit'])) {
         cpf == "88888888888" ||
         cpf == "99999999999")
         return false;
-      // Valida 1o digito 
+      // Valida 1° digito 
       add = 0;
       for (i = 0; i < 9; i++)
         add += parseInt(cpf.charAt(i)) * (10 - i);
@@ -491,7 +492,7 @@ if (isset($_POST['submit'])) {
         rev = 0;
       if (rev != parseInt(cpf.charAt(9)))
         return false;
-      // Valida 2o digito 
+      // Valida 2° digito 
       add = 0;
       for (i = 0; i < 10; i++)
         add += parseInt(cpf.charAt(i)) * (11 - i);
@@ -505,10 +506,11 @@ if (isset($_POST['submit'])) {
 
 
 
+    // Seleciona os elementos HTML dos campos de input para o CPF do pai e da mãe
+     const cpfPaiInput = document.getElementById('cpf_pai');
+     const cpfMaeInput = document.getElementById('cpf_mae');
 
-    const cpfPaiInput = document.getElementById('cpf_pai');
-    const cpfMaeInput = document.getElementById('cpf_mae');
-
+     // Adiciona o evento de "blur" no campo de CPF Pai
     cpfPaiInput.addEventListener('blur', () => {
       if (!validarCPF(cpfPaiInput.value)) {
         alert('CPF do pai inválido');
@@ -517,6 +519,7 @@ if (isset($_POST['submit'])) {
       }
     });
 
+    // Adiciona o evento de "blur" no campo de CPF Mãe
     cpfMaeInput.addEventListener('blur', () => {
       if (!validarCPF(cpfMaeInput.value)) {
         alert('CPF da mãe inválido');
